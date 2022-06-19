@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="./styles.css" />
+        <link rel="stylesheet" href="./actions.css" />
+        <link rel="stylesheet" href="./modal.css" />
+        <!-- displays site properly based on user's device -->
+
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./images/favicon-32x32.png"
+        />
+
+        <title>Frontend Mentor | Interactive rating component</title>
+
+        <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    </head>
+    <body>
+        <div class="box" id="box">
+            <picture class="box-star-icon">
+                <img
+                    src="./images/icon-star.svg"
+                    alt="star-icon"
+                    class="star-icon"
+                />
+            </picture>
+
+            <h2 class="box-title">How did we do?</h2>
+
+            <h5 class="box-paragraph">
+                Please let us know how we did with your support request. All
+                feedback is apreciated to help us to improve our offering!
+            </h5>
+
+            <form id="form">
+                <main class="section-button-rating">
+                    <section class="box-button-rating">
+                        <input type="radio" name="rat" value="1" id="rat-1" />
+                        <label for="rat-1">
+                            <span class="rating-text"> 1 </span>
+                        </label>
+                    </section>
+
+                    <section class="box-button-rating">
+                        <input
+                            type="radio"
+                            name="rating"
+                            id="rat-2"
+                            value="2"
+                        />
+                        <label for="rat-2">
+                            <span class="rating-text"> 2 </span>
+                        </label>
+                    </section>
+
+                    <section class="box-button-rating">
+                        <input
+                            type="radio"
+                            name="rating"
+                            id="rat-3"
+                            value="3"
+                        />
+                        <label for="rat-3">
+                            <span class="rating-text"> 3 </span>
+                        </label>
+                    </section>
+
+                    <section class="box-button-rating">
+                        <input
+                            type="radio"
+                            name="rating"
+                            id="rat-4"
+                            value="4"
+                        />
+                        <label for="rat-4">
+                            <span class="rating-text"> 4 </span>
+                        </label>
+                    </section>
+
+                    <section class="box-button-rating">
+                        <input
+                            type="radio"
+                            name="rating"
+                            id="rat-5"
+                            value="5"
+                        />
+                        <label for="rat-5">
+                            <span class="rating-text"> 5 </span>
+                        </label>
+                    </section>
+                </main>
+
+                <button type="submit" class="box-button-submit">
+                    <h5 class="button-submit">SUBMIT</h5>
+                </button>
+            </form>
+        </div>
+
+        <!-- Rating state start -->
+
+        <!--  How did we do? Please let us know how we did with your support request.
+        All feedback is appreciated to help us improve our offering! 1 2 3 4 5
+        Submit -->
+
+        <!-- Rating state end -->
+
+        <!-- Thank you state start -->
+
+        <!-- You selected -->
+        <!-- Add rating here -->
+        <!--  out of 5 Thank you! We appreciate you taking the time to give a rating.
+        If you ever need more support, don’t hesitate to get in touch! -->
+
+        <!-- Thank you state end -->
+
+        <div class="attribution" style="color: #fff;">
+            Challenge by
+            <a
+                href="https://www.frontendmentor.io?ref=challenge"
+                target="_blank"
+                >Frontend Mentor</a
+            >. Coded by <a href="https://github.com/DaveAdbeel">Dave Adbeel</a>.
+        </div>
+
+        <script src="./index.js"></script>
+    </body>
+</html>

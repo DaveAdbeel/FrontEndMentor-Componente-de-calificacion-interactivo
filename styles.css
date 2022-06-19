@@ -1,0 +1,123 @@
+:root {
+    --Orange: hsl(25, 97%, 53%);
+    --White: hsl(0, 0%, 100%);
+    --Light-Grey: hsl(217, 12%, 63%);
+    --Medium-Grey: hsl(216, 12%, 54%);
+    --Dark-Blue: hsl(213, 20%, 18%);
+    --Very-Dark-Blue: hsl(216, 12%, 8%);
+}
+
+button {
+    border: none;
+    background: none;
+    outline: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Overpass", sans-serif;
+}
+
+body {
+    font-size: 15px;
+    min-height: 100vh;
+    background-color: var(--Very-Dark-Blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box {
+    max-width: 330px;
+    height: 350px;
+    background: linear-gradient(
+        351deg,
+        rgba(37, 45, 55, 0.2) 0%,
+        rgba(37, 45, 55, 0.6) 100%
+    );
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding: 20px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.box-star-icon {
+    width: 40px;
+    height: 40px;
+    background: var(--Dark-Blue);
+    border-radius: 50%;
+    margin-bottom: 15px;
+    display: grid;
+    place-items: center;
+}
+
+.star-icon {
+    width: 14px;
+    height: 14px;
+}
+
+.box-title {
+    font-weight: 700;
+    color: var(--White);
+    margin-bottom: 10px;
+}
+
+.box-paragraph {
+    color: var(--Light-Grey);
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.section-button-rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.box-button-rating {
+    background: var(--Dark-Blue);
+    padding: 20px;
+    max-width: 45px;
+    max-height: 45px;
+    display: grid;
+    place-content: center;
+    border-radius: 50%;
+    color: var(--Medium-Grey);
+}
+
+.box-button-submit {
+    background: var(--Orange);
+    width: 100%;
+    height: 40px;
+    display: grid;
+    place-content: center;
+    justify-self: end;
+    color: var(--White);
+    border-radius: 10pc;
+    transition: background 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.button-submit {
+    width: 100%;
+    height: 100%;
+    font-weight: 700;
+    letter-spacing: 2px;
+    transition: color 0.3s ease-in-out;
+}
+
+.box-button-submit:hover {
+    background: var(--White);
+}
+
+.box-button-submit:hover h5.button-submit {
+    color: var(--Orange);
+}
