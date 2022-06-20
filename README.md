@@ -18,7 +18,7 @@
 
 [DEMO](https://daveadbeel.github.io/FrontEndMentor-Componente-de-calificacion-interactivo/)
 
-![Diseño sin título](https://user-images.githubusercontent.com/58489695/174514901-b7bf90c3-9894-479a-a7d1-50abba62edbf.png)
+![Diseño sin título](https://repository-images.githubusercontent.com/505240484/ff33c110-7942-4f10-997f-a7f0ad6b47b9)
 
 ## 🧾 License
 
