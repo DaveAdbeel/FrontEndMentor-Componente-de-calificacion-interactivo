@@ -1,2 +1,3 @@
 
-## FrontEndMentor-Componente-de-calificacion-interactivo 
+## FrontEndMentor-Componente-de-calificacion-interactivo Status badge
+
